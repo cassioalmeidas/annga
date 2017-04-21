@@ -169,7 +169,7 @@ public class Main {
     
     	// genetic algorithm
 	    int popSize = 20;
-	    int maxGeneration = 900;
+	    int maxGeneration = 999999999;
 	    double exitError = 0.018;
 	    double mutateRate = 0.10;
 	    double mutateChange = 0.1;

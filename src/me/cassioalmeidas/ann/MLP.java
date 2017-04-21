@@ -199,7 +199,8 @@ public class MLP {
 				}
 			}
 			++gen;
-			System.out.println(gen+","+bestError);
+			if(gen % 10000000 == 0)
+				System.out.println(gen+","+bestError);
 		}
 		
 		return bestSolution;
